@@ -1,0 +1,28 @@
+.search {
+    margin-left: auto;
+    margin-top: 25px;
+}
+
+.search--text {
+    display: block;
+    text-align: left;
+    margin-bottom: 2px;
+}
+
+.search--form {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 230px;
+}
+
+.search--form input[type=text] {
+    height: 55px;
+    background-color: black;
+}
+
+.search--form button {
+    border: 0;
+    background-color: orange;
+    color: white;
+}

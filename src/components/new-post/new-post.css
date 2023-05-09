@@ -1,0 +1,38 @@
+.new-post {
+    margin: 10px 0;
+    background: #f4f4f4;
+    width: 100%;
+    height: 520px;
+    text-align: left;
+    border: 1px solid #e5e5e5;   
+}
+
+.new-post--container {
+    padding: 10px 30px;
+}
+
+.new-post input {
+    border: 0;
+    background: transparent
+}
+
+.new-post--metadata {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.new-post textarea {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+}
+
+.new-post button {
+    display: block;
+    margin: 15px auto;
+    border: 0;
+    background: orange;
+    padding: 10px;
+}

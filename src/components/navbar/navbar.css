@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    padding: 0 85px;
+    border-bottom: 3px solid #6a6a6a;  
+}
+
+.navbar--logo img {
+    height: 100px;
+}
+
+.navbar--menu ul {
+    display: flex;
+    gap: 55px;
+    list-style: none;
+    font-size: 30px;
+    vertical-align: middle;
+    margin-block: 50px;
+}
+
+.navbar--menu ul a {
+    color: inherit;
+    text-decoration: inherit;
+}
+

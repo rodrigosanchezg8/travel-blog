@@ -1,0 +1,16 @@
+.add-post {
+    border: 0;
+    margin-left: auto;
+    display: flex;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+    height: 40px;
+    vertical-align: middle;
+    background: #c6c6c6;
+}
+
+.feed a {
+    color: inherit;
+    text-decoration: inherit;
+}

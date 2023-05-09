@@ -1,0 +1,23 @@
+.top-news--images img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: -20% 0;
+}
+
+.top-news {
+    position: relative;
+}
+
+.top-news--description {
+    position: absolute;
+    right: 105px;
+    bottom: 0;
+    width: 600px;
+    max-height: 400px;
+    margin-bottom: 45px;
+    text-overflow: clip;
+    text-align: ellipsis;
+    padding: 0 15px;
+    background: #ffffff7d;
+}
